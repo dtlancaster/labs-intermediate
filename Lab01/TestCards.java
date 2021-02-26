@@ -1,0 +1,30 @@
+
+/**
+ * TestCards.java
+ * 
+ */
+
+/**
+ * TestCards provides a main method to print the original sorted deck 
+ * and a shuffled version.
+ * 
+ * @author Dylan Lancaster
+ */
+public class TestCards 
+{
+	/**
+     * Main method prints the original and shuffled deck.
+     * 
+     * @param args command line arguments
+     */
+    public static void main(String[] args) 
+    {
+        // TODO: Test method - tests to make sure the PlayingCard and Deck
+        //classes are properly implemented.
+    	Deck deck = new Deck();
+    	System.out.println(deck);
+    	deck.shuffleDeck();
+    	System.out.println(deck);
+    }
+}
+
